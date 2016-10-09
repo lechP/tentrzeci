@@ -53,11 +53,15 @@ li {
 #menu {
     font-size: 2em;
     font-family: BebasNeue;
-    color: #474747;
     margin: 15px 0 15px 0;
     border: 0;
     padding: 0;
     text-align: center;
+}
+
+#menu a {
+    color: #29235C;
+    text-decoration: none;
 }
 
 #content {
@@ -72,21 +76,12 @@ li {
 h1 {
     font-family: BebasNeue;
     font-size: 1.8em;
+    color: #29235C;
     padding: 20px 0 10px 0;
 }
 
-h2 {
-    font-size: 1.2em;
-    padding: 0;
-    text-align: center;
-}
-
-h3 {
-    font-size: 1.2em;
-}
-
 hr {
-    color: #ababab;
+    color: #29235C;
     size: 0.2px;
 }
 
@@ -106,16 +101,7 @@ a:hover {
     margin: 0 100px 0 100px;
     line-height: 1.6em;
     text-align: center;
-    font-size: 0.9em;
-}
-
-#footer a {
-    color: #474747;
-    text-decoration: none;
-}
-
-#footer a:hover {
-    color: #ed1c24;
+    font-size: 0.8em;
 }
 
 table {

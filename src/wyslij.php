@@ -1,7 +1,7 @@
 <?php
 
 $wiadomosc = 
-"Imiê i nazwisko: ".$_POST['nick']." 
+"Imiê i nazwisko: ".$_POST['nick']."
 
 E-mail: ".$_POST['mail']." 
 
