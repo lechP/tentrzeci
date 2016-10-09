@@ -1,0 +1,146 @@
+@font-face { font-family: Dosis; src: url('fonts/Dosis-Regular.otf'); } 
+
+body {
+margin: 0 auto;
+padding: 0;
+font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+color: #474747;
+background-color: #fff;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: bottom;
+}
+
+p {
+margin-top: 0;
+margin-bottom: 0;
+padding: 0 0 0 15px;
+}
+
+ul {
+margin-top: 0;
+margin-bottom: 0;
+}
+
+li {
+margin-top: 0;
+margin-bottom: 5px;
+}
+
+#leftsidebar {
+margin: 0 auto;
+width: 900px;
+}
+
+#logo {
+margin: 0 auto;
+}
+
+#header {
+margin: 0;
+border: 0;
+}
+
+#menu {
+font-size: 1.2em;
+color: #474747;
+margin: 15px 0 15px 0;
+border: 0;
+padding: 0;
+text-align: center;
+}
+
+#content {
+color: #474747;
+clear: left;
+padding: 10px 0px 10px 0px;
+margin: 0 40px 0 40px;
+line-height: 1.6em;
+text-align: center;
+}
+
+h1 {
+font-size: 1.4em;
+padding: 20px 0 10px 0;
+}
+
+h2 {
+font-size: 1.2em;
+padding: 0;
+text-align: center;
+}
+
+h3 {
+font-size: 1.2em;
+}
+
+hr {
+color: #ababab; 
+size: 0.2px;
+}
+a {
+color: #474747;
+text-decoration: none;
+}
+
+a:hover {
+font-weight: bold;
+}
+
+#footer {
+color: #474747;
+clear: left;
+padding: 50px 0px 10px 0px;
+margin: 0 100px 0 100px;
+line-height: 1.6em;
+text-align: center;
+font-size: 0.9em;
+}
+
+#footer a {
+color: #474747;
+text-decoration: none;
+}
+
+#footer a:hover {
+color: #ed1c24;
+}
+
+table {
+	text-align: left;
+}
+
+ul {
+	text-align: left;
+	padding: 20px 0 0 35px;
+}
+
+.left {
+margin: 10px 10px 5px 0;
+float: left;
+}
+
+.right {
+margin: 10px 0 5px 10px;
+float: right;
+}
+
+.textright {
+text-align: right;
+}
+
+.center {
+text-align: center;
+}
+
+.small {
+font-size: 0.9em;
+}
+
+.bold {
+font-weight: bold;
+}
+
+.hide {
+display: none;
+}
