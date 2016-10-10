@@ -8,7 +8,6 @@
     src: url('fonts/OpenSans-Regular.ttf');
 }
 
-
 body {
     width: 900px;
     margin: 0 auto;
@@ -30,11 +29,38 @@ p {
 ul {
     margin-top: 0;
     margin-bottom: 0;
+	padding: 20px 0 0 35px;
 }
 
 li {
     margin-top: 0;
     margin-bottom: 5px;
+}
+
+h1 {
+    font-family: BebasNeue;
+    font-size: 1.8em;
+    color: #29235C;
+    padding: 20px 0 10px 0;
+}
+
+hr {
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(41, 35, 92, 0.9), rgba(0, 0, 0, 0));
+}
+
+a {
+    color: #474747;
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+table {
+	padding: 0 0 0 15px;
 }
 
 #logo {
@@ -62,48 +88,16 @@ li {
 }
 
 #content {
-    color: #474747;
     clear: left;
     padding: 10px 0px 10px 0px;
     margin: 0 40px 0 40px;
     line-height: 1.6em;
 }
 
-h1 {
-    font-family: BebasNeue;
-    font-size: 1.8em;
-    color: #29235C;
-    padding: 20px 0 10px 0;
-}
-
-hr {
-    color: #29235C;
-    size: 0.2px;
-}
-
-a {
-    color: #474747;
-    text-decoration: none;
-}
-
-a:hover {
-    font-weight: bold;
-}
-
 #footer {
-    color: #474747;
     clear: left;
     padding: 50px 0px 10px 0px;
     line-height: 1.6em;
     text-align: center;
     font-size: 0.8em;
-}
-
-table {
-	padding: 0 0 0 15px;
-}
-
-ul {
-	text-align: left;
-	padding: 20px 0 0 35px;
 }
