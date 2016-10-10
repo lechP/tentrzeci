@@ -23,13 +23,13 @@ body {
 p {
     margin-top: 0;
     margin-bottom: 0;
-    padding: 0 0 0 15px;
+    padding: 0 0 1.6em 15px;
 }
 
 ul {
     margin-top: 0;
     margin-bottom: 0;
-	padding: 20px 0 0 35px;
+	padding: 0 0 0 35px;
 }
 
 li {
