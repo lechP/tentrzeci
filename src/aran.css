@@ -51,9 +51,9 @@ li {
 }
 
 #menu {
-    font-size: 2em;
+    font-size: 1.5em;
     font-family: BebasNeue;
-    margin: 15px 0 15px 0;
+    margin: 30px 0 15px 0;
     border: 0;
     padding: 0;
     text-align: center;
@@ -62,6 +62,7 @@ li {
 #menu a {
     color: #29235C;
     text-decoration: none;
+    padding: 0 30px 0 30px;
 }
 
 #content {
@@ -70,7 +71,6 @@ li {
     padding: 10px 0px 10px 0px;
     margin: 0 40px 0 40px;
     line-height: 1.6em;
-    text-align: center;
 }
 
 h1 {
@@ -98,47 +98,16 @@ a:hover {
     color: #474747;
     clear: left;
     padding: 50px 0px 10px 0px;
-    margin: 0 100px 0 100px;
     line-height: 1.6em;
     text-align: center;
     font-size: 0.8em;
 }
 
 table {
-	text-align: left;
+	padding: 0 0 0 15px;
 }
 
 ul {
 	text-align: left;
 	padding: 20px 0 0 35px;
-}
-
-.left {
-    margin: 10px 10px 5px 0;
-    float: left;
-}
-
-.right {
-    margin: 10px 0 5px 10px;
-    float: right;
-}
-
-.textright {
-    text-align: right;
-}
-
-.center {
-    text-align: center;
-}
-
-.small {
-    font-size: 0.9em;
-}
-
-.bold {
-    font-weight: bold;
-}
-
-.hide {
-    display: none;
 }
