@@ -12,11 +12,8 @@ Uwagi: ".$_POST['tresc']."  ";
 $tematyka = "Zg³oszenie na rekolekcje 'Ten Trzeci'";
 
 
-mail ("zapisy@tentrzeci.pl", $tematyka, $wiadomosc ); 
+mail ("cardano.p@gmail.com", $tematyka, $wiadomosc );
 
-$dom = new DOMDocument();
-libxml_use_internal_errors(true);
-$dom->loadHTMLFile('after_register.html');
-
-echo $dom->saveHTML();
+header("Location: /?r=true");
+exit;
 ?>
