@@ -18,6 +18,7 @@ body {
     text-align: justify;
 }
 
+
 #content {
     width: 900px;
     padding: 10px 0 10px 0;
@@ -78,11 +79,11 @@ table {
 }
 
 #menu {
-    font-size: 1em;
+    font-size: 1.2em;
     font-family: Evogria, serif;
     margin: 30px 0 15px 0;
     border: 0;
-    padding: 15px;
+    padding: 25px;
     text-align: center;
     background: #e8253b;
 }
@@ -110,5 +111,10 @@ table {
 
 #footer a{
     color: #fff;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 20px;
 }
 
